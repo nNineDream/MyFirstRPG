@@ -1,0 +1,154 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Unityhub\\project\\True RPG\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4D72E993-205A-99C1-9D2B-AB069A146895}|Assembly-CSharp.csproj|E:\\Unityhub\\project\\True RPG\\assets\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D72E993-205A-99C1-9D2B-AB069A146895}|Assembly-CSharp.csproj|solutionrelative:assets\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D72E993-205A-99C1-9D2B-AB069A146895}|Assembly-CSharp.csproj|e:\\unityhub\\project\\true rpg\\assets\\player_basicattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D72E993-205A-99C1-9D2B-AB069A146895}|Assembly-CSharp.csproj|solutionrelative:assets\\player_basicattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D72E993-205A-99C1-9D2B-AB069A146895}|Assembly-CSharp.csproj|E:\\Unityhub\\project\\True RPG\\assets\\entitystate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D72E993-205A-99C1-9D2B-AB069A146895}|Assembly-CSharp.csproj|solutionrelative:assets\\entitystate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D72E993-205A-99C1-9D2B-AB069A146895}|Assembly-CSharp.csproj|E:\\Unityhub\\project\\True RPG\\assets\\player_groundedstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D72E993-205A-99C1-9D2B-AB069A146895}|Assembly-CSharp.csproj|solutionrelative:assets\\player_groundedstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D72E993-205A-99C1-9D2B-AB069A146895}|Assembly-CSharp.csproj|E:\\Unityhub\\project\\True RPG\\assets\\player_airedstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D72E993-205A-99C1-9D2B-AB069A146895}|Assembly-CSharp.csproj|solutionrelative:assets\\player_airedstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D72E993-205A-99C1-9D2B-AB069A146895}|Assembly-CSharp.csproj|E:\\Unityhub\\project\\True RPG\\assets\\player_movestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D72E993-205A-99C1-9D2B-AB069A146895}|Assembly-CSharp.csproj|solutionrelative:assets\\player_movestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D72E993-205A-99C1-9D2B-AB069A146895}|Assembly-CSharp.csproj|E:\\Unityhub\\project\\True RPG\\assets\\player_dashstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D72E993-205A-99C1-9D2B-AB069A146895}|Assembly-CSharp.csproj|solutionrelative:assets\\player_dashstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D72E993-205A-99C1-9D2B-AB069A146895}|Assembly-CSharp.csproj|E:\\Unityhub\\project\\True RPG\\assets\\player_jumpstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D72E993-205A-99C1-9D2B-AB069A146895}|Assembly-CSharp.csproj|solutionrelative:assets\\player_jumpstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Player_BasicAttackState.cs",
+              "DocumentMoniker": "E:\\Unityhub\\project\\True RPG\\Assets\\Player_BasicAttackState.cs",
+              "RelativeDocumentMoniker": "Assets\\Player_BasicAttackState.cs",
+              "ToolTip": "E:\\Unityhub\\project\\True RPG\\Assets\\Player_BasicAttackState.cs",
+              "RelativeToolTip": "Assets\\Player_BasicAttackState.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAgwBQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T07:16:51.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Player_GroundedState.cs",
+              "DocumentMoniker": "E:\\Unityhub\\project\\True RPG\\Assets\\Player_GroundedState.cs",
+              "RelativeDocumentMoniker": "Assets\\Player_GroundedState.cs",
+              "ToolTip": "E:\\Unityhub\\project\\True RPG\\Assets\\Player_GroundedState.cs",
+              "RelativeToolTip": "Assets\\Player_GroundedState.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T07:19:22.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EntityState.cs",
+              "DocumentMoniker": "E:\\Unityhub\\project\\True RPG\\Assets\\EntityState.cs",
+              "RelativeDocumentMoniker": "Assets\\EntityState.cs",
+              "ToolTip": "E:\\Unityhub\\project\\True RPG\\Assets\\EntityState.cs",
+              "RelativeToolTip": "Assets\\EntityState.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAswDEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T03:00:35.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Player.cs",
+              "DocumentMoniker": "E:\\Unityhub\\project\\True RPG\\Assets\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Player.cs",
+              "ToolTip": "E:\\Unityhub\\project\\True RPG\\Assets\\Player.cs",
+              "RelativeToolTip": "Assets\\Player.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAiwBsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T03:00:35.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Player_AiredState.cs",
+              "DocumentMoniker": "E:\\Unityhub\\project\\True RPG\\Assets\\Player_AiredState.cs",
+              "RelativeDocumentMoniker": "Assets\\Player_AiredState.cs",
+              "ToolTip": "E:\\Unityhub\\project\\True RPG\\Assets\\Player_AiredState.cs",
+              "RelativeToolTip": "Assets\\Player_AiredState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T03:21:56.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Player_MoveState.cs",
+              "DocumentMoniker": "E:\\Unityhub\\project\\True RPG\\Assets\\Player_MoveState.cs",
+              "RelativeDocumentMoniker": "Assets\\Player_MoveState.cs",
+              "ToolTip": "E:\\Unityhub\\project\\True RPG\\Assets\\Player_MoveState.cs",
+              "RelativeToolTip": "Assets\\Player_MoveState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T03:22:09.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Player_JumpState.cs",
+              "DocumentMoniker": "E:\\Unityhub\\project\\True RPG\\Assets\\Player_JumpState.cs",
+              "RelativeDocumentMoniker": "Assets\\Player_JumpState.cs",
+              "ToolTip": "E:\\Unityhub\\project\\True RPG\\Assets\\Player_JumpState.cs",
+              "RelativeToolTip": "Assets\\Player_JumpState.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAmwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T03:22:03.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Player_DashState.cs",
+              "DocumentMoniker": "E:\\Unityhub\\project\\True RPG\\Assets\\Player_DashState.cs",
+              "RelativeDocumentMoniker": "Assets\\Player_DashState.cs",
+              "ToolTip": "E:\\Unityhub\\project\\True RPG\\Assets\\Player_DashState.cs",
+              "RelativeToolTip": "Assets\\Player_DashState.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAA7wDIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T03:22:13.554Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
