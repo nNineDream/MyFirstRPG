@@ -13,7 +13,7 @@ public class EntityState
     protected PlayerInputSet input;
      
     protected float stateTimer;
-    protected bool triggercalled;
+    protected bool triggerCalled;
 
     public EntityState(Player player,StateMachine stateMachine, string animBoolName)
     {
@@ -29,7 +29,7 @@ public class EntityState
     public virtual void Enter() 
     {
         anim.SetBool(animBoolName,true);
-        triggercalled = false;
+        triggerCalled = false;
     }
 
     public virtual void Update()
@@ -49,7 +49,7 @@ public class EntityState
    
     public void CallAnimationTrigger()
     {
-        triggercalled = true;
+        triggerCalled = true;
     }
     private bool CanDash()
     {

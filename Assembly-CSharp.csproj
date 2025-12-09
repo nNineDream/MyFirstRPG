@@ -74,6 +74,7 @@
     <Compile Include="Assets\Player_WallJumpState.cs" />
     <Compile Include="Assets\EntityState.cs" />
     <Compile Include="Assets\Player_FallState.cs" />
+    <Compile Include="Assets\Player_JumpAttack.cs" />
     <Compile Include="Assets\InputSystem\PlayerInputSet.cs" />
     <Compile Include="Assets\Player_AiredState.cs" />
   </ItemGroup>

@@ -23,6 +23,8 @@ public class Player_DashState : EntityState
         base.Update();
         CancelDashIfNeed();
 
+        dashDir = player.moveInput.x != 0 ? (int)player.moveInput.x : player.facingDir;
+
         player.SetVelocity(player.dashSpeed * dashDir, 0);
 
         if (stateTimer < 0)

@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
 
@@ -17,11 +18,15 @@ public class Player : MonoBehaviour
     public EntityState wallJumpState { get; private set; }
     public EntityState dashState { get; private set; }
     public EntityState basicAttackState { get; private set; }
+    public EntityState jumpAttackState { get; private set; }
 
     [Header("Attack details")]
     public Vector2[] attackVelocity;
+    public Vector2 jumpAttackVelocity;
     public float attackVelocityDuration = .1f;
     public float comboResetTime = 1;
+    private Coroutine queuedAttackCo;
+   
 
     [Header("Movement details")]
     public float moveSpeed;
@@ -62,6 +67,7 @@ public class Player : MonoBehaviour
         wallJumpState = new Player_WallJumpState(this, stateMachine, "jumpFall");
         dashState = new Player_DashState(this, stateMachine, "dash");
         basicAttackState = new Player_BasicAttackState(this, stateMachine, "basicAttack");
+        jumpAttackState = new Player_JumpAttack(this, stateMachine, "jumpAttack");
     }
     private void OnEnable()
     {
@@ -89,6 +95,21 @@ public class Player : MonoBehaviour
     {
         stateMachine.currentState.CallAnimationTrigger();
     }
+
+    public void EnterAttackStateWithDelay()
+    {
+        if(queuedAttackCo != null)
+        {
+            StopCoroutine(queuedAttackCo);
+        }
+        queuedAttackCo = StartCoroutine(EnterAttackStateWithDelyCo());
+    }
+    private IEnumerator EnterAttackStateWithDelyCo()
+    {
+        yield return new WaitForEndOfFrame();
+        stateMachine.ChangeState(basicAttackState);
+    }
+
     public void SetVelocity(float xVelocity, float yVelocity) 
     {
         rb.linearVelocity = new Vector2(xVelocity, yVelocity);
