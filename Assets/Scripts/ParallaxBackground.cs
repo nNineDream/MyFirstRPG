@@ -12,7 +12,7 @@ public class ParallaxBackground : MonoBehaviour
         cameraHalfWidth = mainCamera.orthographicSize * mainCamera.aspect;
         //orthographic 正交模式 orthographicSize正交尺寸（摄像机总高度的一半）
         //aspect 宽高比
-        CalculateImageLength();
+        InitializeLayers();
     }
 
     private void FixedUpdate()
@@ -31,7 +31,7 @@ public class ParallaxBackground : MonoBehaviour
         }
     }
 
-    private void CalculateImageLength() { 
+    private void InitializeLayers() { 
         foreach(ParallaxLayer layer in backgroundLayers)
             layer.CalculateImageWidth();
     }

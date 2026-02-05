@@ -20,6 +20,9 @@ public class Player : MonoBehaviour
     public EntityState basicAttackState { get; private set; }
     public EntityState jumpAttackState { get; private set; }
 
+    [Header("Debug Info")]
+    [SerializeField] private string currentStateName;
+
     [Header("Attack details")]
     public Vector2[] attackVelocity;
     public Vector2 jumpAttackVelocity;
@@ -27,7 +30,6 @@ public class Player : MonoBehaviour
     public float comboResetTime = 1;
     private Coroutine queuedAttackCo;
    
-
     [Header("Movement details")]
     public float moveSpeed;
     public float jumpForce = 5;
@@ -92,8 +94,9 @@ public class Player : MonoBehaviour
     {
         HandleCollisionDetection();
         stateMachine.UpdateActiveState();
+        currentStateName = stateMachine.currentState.GetType().Name;
     }
-    
+
     public void CallAnimationTrigger()
     {
         stateMachine.currentState.CallAnimationTrigger();
