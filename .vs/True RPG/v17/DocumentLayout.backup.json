@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "E:\\Unityhub\\project\\True RPG\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4D72E993-205A-99C1-9D2B-AB069A146895}|Assembly-CSharp.csproj|e:\\unityhub\\project\\true rpg\\assets\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D72E993-205A-99C1-9D2B-AB069A146895}|Assembly-CSharp.csproj|solutionrelative:assets\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4D72E993-205A-99C1-9D2B-AB069A146895}|Assembly-CSharp.csproj|e:\\unityhub\\project\\true rpg\\assets\\scripts\\parallaxbackground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D72E993-205A-99C1-9D2B-AB069A146895}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\parallaxbackground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D72E993-205A-99C1-9D2B-AB069A146895}|Assembly-CSharp.csproj|E:\\Unityhub\\project\\True RPG\\assets\\player_movestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D72E993-205A-99C1-9D2B-AB069A146895}|Assembly-CSharp.csproj|solutionrelative:assets\\player_movestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4D72E993-205A-99C1-9D2B-AB069A146895}|Assembly-CSharp.csproj|e:\\unityhub\\project\\true rpg\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D72E993-205A-99C1-9D2B-AB069A146895}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unityhub\\project\\True RPG\\Assets\\Scripts\\Player_BasicAttackState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Player_BasicAttackState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,28 +39,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Player.cs",
-              "DocumentMoniker": "E:\\Unityhub\\project\\True RPG\\Assets\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\Player.cs",
-              "ToolTip": "E:\\Unityhub\\project\\True RPG\\Assets\\Player.cs",
-              "RelativeToolTip": "Assets\\Player.cs",
-              "ViewState": "AgIAAHoAAAAAAAAAAAAkwIoAAAAfAAAAAAAAAA==",
+              "Title": "ParallaxBackground.cs",
+              "DocumentMoniker": "E:\\Unityhub\\project\\True RPG\\Assets\\Scripts\\ParallaxBackground.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ParallaxBackground.cs",
+              "ToolTip": "E:\\Unityhub\\project\\True RPG\\Assets\\Scripts\\ParallaxBackground.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ParallaxBackground.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T09:00:53.189Z",
+              "WhenOpened": "2026-02-02T12:42:30.312Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Player_MoveState.cs",
-              "DocumentMoniker": "E:\\Unityhub\\project\\True RPG\\Assets\\Player_MoveState.cs",
-              "RelativeDocumentMoniker": "Assets\\Player_MoveState.cs",
-              "ToolTip": "E:\\Unityhub\\project\\True RPG\\Assets\\Player_MoveState.cs",
-              "RelativeToolTip": "Assets\\Player_MoveState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Title": "Player.cs",
+              "DocumentMoniker": "E:\\Unityhub\\project\\True RPG\\Assets\\Scripts\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
+              "ToolTip": "E:\\Unityhub\\project\\True RPG\\Assets\\Scripts\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAiwGYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T03:22:09.368Z",
+              "WhenOpened": "2025-12-10T12:49:24.538Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Player_BasicAttackState.cs",
+              "DocumentMoniker": "E:\\Unityhub\\project\\True RPG\\Assets\\Scripts\\Player_BasicAttackState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player_BasicAttackState.cs",
+              "ToolTip": "E:\\Unityhub\\project\\True RPG\\Assets\\Scripts\\Player_BasicAttackState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player_BasicAttackState.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAQwCkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T07:58:42.359Z"
             }
           ]
         }
